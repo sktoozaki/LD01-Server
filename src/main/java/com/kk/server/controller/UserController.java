@@ -40,7 +40,7 @@ public class UserController {
     @ResponseBody
     public String userRegister()
     {
-//        userService.userRegister();
+        userService.userRegister();
         return "userRegister Successful";
     }
 }

@@ -1,8 +1,13 @@
 package com.kk.server.model;
 
+
+import javax.persistence.Entity;
+
 /**
  * Created by KK on 2015/12/3.
  */
+
+@Entity
 public class UserBean {
 
     private long id;
